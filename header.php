@@ -36,10 +36,10 @@
 
 <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
 
-<?php if (is_page( 'team-primal' ) ): ?>
+<?php if (is_page( array('team-primal', 'primalcubz')) ): ?>
 
 	<style>
-		
+
 		#main-nav, #footer{
 			display: none;
 		}
@@ -61,7 +61,7 @@
 <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/ie.css" type="text/css">
 <![endif]-->
 
-<?php 
+<?php
 
 if ( ! function_exists( '_wp_render_title_tag' ) ) :
     function zerif_pro_old_render_title() {
@@ -149,16 +149,16 @@ elseif( $zerif_background_settings == 'zerif-background-video' ):
 
 	/* Video background */
 	$zerif_background_video = get_theme_mod('zerif_background_video');
-	
+
 	$zerif_enable_video_sound = get_theme_mod('zerif_enable_video_sound');
-	
+
 	/* enable video sound */
 	if( isset($zerif_enable_video_sound) && ($zerif_enable_video_sound == 1)) {
 		$zerif_video_sound = '';
 	} else {
 		$zerif_video_sound = ' muted';
 	}
-	
+
 	if( !empty($zerif_background_video) && is_home() ):
 
 		$zerif_background_video_thumbnail = get_theme_mod('zerif_background_video_thumbnail');
@@ -212,7 +212,7 @@ else:
 ?>
 
 <?php if( is_home() ): ?>
-	
+
 <div id="mobile-bg-responsive" class="zerif-mobile-bg-helper-wrap-all">
 	<div class="zerif-mobile-bg-helper-bg"><div class="zerif-mobile-bg-helper-bg-inside"></div></div>
 	<div class="zerif-mobile-bg-helper-content">
@@ -226,26 +226,26 @@ endif;
 ?>
 		<!-- =========================
 
-		   PRE LOADER PT      
+		   PRE LOADER PT
 
 		============================== -->
 		<?php
-			
+
 		 global $wp_customize;
 
-		 if(is_front_page() && !isset( $wp_customize )): 
-		 
+		 if(is_front_page() && !isset( $wp_customize )):
+
 			$zerif_disable_preloader = get_theme_mod('zerif_disable_preloader');
-			
+
 			if( isset($zerif_disable_preloader) && ($zerif_disable_preloader != 1)):
-				 
+
 				echo '<div class="preloader">';
 
 					echo '<div class="status">&nbsp;</div>';
 
 				echo '</div>';
-				
-			endif;	
+
+			endif;
 
 		endif; ?>
 
@@ -272,7 +272,7 @@ endif;
 
 						</button>
 
-						
+
 
 						<?php
 
@@ -287,18 +287,18 @@ endif;
 								echo '</a>';
 
 							else:
-							
+
 								if( isset( $wp_customize ) ):
-									
+
 									echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand">';
 
 										echo '<img src="" alt="'.get_bloginfo('title').'" class="zerif_hidden_if_not_customizer">';
 
 									echo '</a>';
-								
+
 								endif;
 
-								echo '<div class="header_title zerif_header_title">';	
+								echo '<div class="header_title zerif_header_title">';
 
 									echo '<h1 class="site-title" itemprop="headline"><a href="'.esc_url( home_url( '/' ) ).'" title="'.esc_attr( get_bloginfo( 'name', 'display' ) ).'" rel="home">'.get_bloginfo( 'name' ).'</a></h1>';
 
@@ -310,7 +310,7 @@ endif;
 
 						?>
 
-						
+
 
 					</div>
 

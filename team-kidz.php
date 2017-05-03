@@ -6,30 +6,51 @@
 
  get_header(); ?>
 
+
  	<div id="primary" class="content-area">
  		<main id="main" class="site-main" role="main">
 
 <div class="kidz-wrapper">
+  <div class="kidz-section section-01">
+    <div class="kidz-hero-logo not-mobile">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero.svg" alt="Join The Club">
+      <h2>yorkshire’s leading training team&nbsp;presents</h2>
+    </div>
+    <div class="kidz-hero-logo mobile">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero-mobile.svg" alt="Join The Club">
+      <h2>yorkshire’s leading training team&nbsp;presents</h2>
+    </div>
 
-  <div class="kidz-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/primalcubzlogo.svg" alt="Primal Cubz"></div>
-
-  <h1>Be first to know...  100 Spaces Only!</h1>
-
-  <a href="<?php bloginfo('url'); ?>/form-view/5" class="kidz-button">Sign&nbsp;my&nbsp;cub&nbsp;up!</a>
-
-  <?php
-    if ( function_exists("add_formcraft_form") ) { add_formcraft_form("[fc id='5' type='popup'][/fc]"); }
-  ?>
-
-  <p>presented by team primal Home to Flab2Lean</p>
-
-  <div class="kidz-logos">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logos.svg" alt="">
+    <div class="kidz-hero-both">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
+      <h2>information&nbsp;leaks <span>sunday&nbsp;may&nbsp;14Th</span></h2>
+    </div>
   </div>
 
-  <div class="tiger-kidz">
+  <div class="kidz-section section-02">
+    <h2 class="black">Be the first....</h2>
+    <img class="or-image"src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-or.svg" alt="Join The Club">
+    <div class="kidz-facepaint">
       <img src="<?php echo get_template_directory_uri(); ?>/images/tiger-cubz.png" alt="Primal Cubz">
+    </div>
+
+    <a href="<?php bloginfo('url'); ?>/form-view/5" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/info.svg" alt="Join The Club"></a>
   </div>
+
+  <div class="kidz-section section-03">
+    <div class="kidz-hero-both">
+      <img class="presents-logo"src="<?php echo get_template_directory_uri(); ?>/images/presents.svg" alt="Join The Club">
+      <h2>yorkshire’s leading training team&nbsp;presents</h2>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
+    </div>
+  </div>
+
+
+
+  <?php if ( function_exists("add_formcraft_form") ) { add_formcraft_form("[fc id='5' type='popup'][/fc]"); } ?>
+
+
+
 </div>
 
  		</main><!-- #main -->
