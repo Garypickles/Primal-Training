@@ -9047,15 +9047,9 @@ a:visited {
   background-size: cover;
   background-position: center center; }
 
-/* Section 02 */
-.kidz-wrapper .section-02 {
-  background: #FAA71A;
-  position: relative;
-  overflow: hidden; }
-
-.kidz-wrapper .section-02 .black {
-  color: black;
-  font-size: 7vw; }
+.kidz-hero-both, .kidz-hero-logo {
+  max-width: 800px;
+  margin: 0 auto; }
 
 .or-image {
   position: relative;
@@ -9078,16 +9072,12 @@ a:visited {
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .or-image {
-    width: 60%; }
-  .kidz-wrapper .section-02 .black {
-    font-size: 5vw; } }
+    width: 60%; } }
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .or-image {
-    width: 100%; }
-  .kidz-wrapper .section-02 .black {
-    font-size: 10vw !important; } }
+    width: 100%; } }
 
 .kidz-facepaint {
   position: absolute;
@@ -9102,20 +9092,12 @@ a:visited {
   width: 100%;
   height: auto; }
 
-.kidz-wrapper .section-03 {
-  background-image: url("images/cubz-bg.jpg");
-  background-size: cover;
-  background-position: center center; }
-
 .kidz-wrapper .kidz-section {
   min-height: 100vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
-
-.section-03 {
-  justify-content: center; }
 
 .kidz-wrapper .kidz-section h2, .kidz-wrapper .kidz-section h2 span {
   text-transform: uppercase;

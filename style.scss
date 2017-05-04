@@ -9437,16 +9437,12 @@ background-size: cover;
 background-position: center center;
 }
 
-/* Section 02 */
-.kidz-wrapper .section-02 {
-background: #FAA71A;
-position: relative;
-overflow: hidden;
+.kidz-hero-both, .kidz-hero-logo{
+  max-width: 800px;
+  margin: 0 auto;
 }
-.kidz-wrapper .section-02 .black{
-  color: black;
-  font-size: 7vw;
-}
+
+
 .or-image{
   position: relative;
   z-index: 1;
@@ -9475,9 +9471,6 @@ overflow: hidden;
     .or-image{
       width: 60%;
     }
-    .kidz-wrapper .section-02 .black{
-      font-size: 5vw;
-    }
 }
 /* Portrait */
 @media only screen
@@ -9487,9 +9480,6 @@ overflow: hidden;
   and (orientation: portrait) {
     .or-image{
       width: 100%;
-    }
-    .kidz-wrapper .section-02 .black{
-      font-size: 10vw!important;
     }
 }
 .kidz-facepaint{
@@ -9505,11 +9495,7 @@ overflow: hidden;
   width: 100%;
   height: auto;
 }
-.kidz-wrapper .section-03 {
-  background-image: url('images/cubz-bg.jpg');
-  background-size: cover;
-  background-position: center center;
-}
+
 .kidz-wrapper .kidz-section {
  min-height: 100vh;
  padding: 10px;
@@ -9517,9 +9503,7 @@ overflow: hidden;
  flex-direction: column;
  justify-content: space-around;
 }
-.section-03{
-  justify-content: center;
-}
+
 .kidz-wrapper .kidz-section h2, .kidz-wrapper .kidz-section h2 span{
  text-transform: uppercase;
  font-family: 'Oswald', sans-serif;
