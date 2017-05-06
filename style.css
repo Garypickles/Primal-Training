@@ -9130,6 +9130,17 @@ a:visited {
   .not-mobile {
     display: none; } }
 
+/* Kidz Try Day Page */
+.kidz-try-text, .kidz-try-text span {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 3.2vw;
+  line-height: 3.5vw;
+  color: white; }
+  .kidz-try-text span, .kidz-try-text span span {
+    color: #FAA71A; }
+
 /*--------------------------------------------------------------
 # End Kidz Landing Page
 --------------------------------------------------------------*/
