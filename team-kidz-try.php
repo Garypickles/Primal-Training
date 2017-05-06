@@ -22,14 +22,15 @@
               <h2>yorkshire’s leading training team&nbsp;presents</h2>
             </div>
 
+            <div class="kidz-timeslot">
+              <?php if (function_exists("add_formcraft_form")) { add_formcraft_form("[fc id='6'][/fc]"); } ?>
+            </div>
+
             <div class="kidz-hero-both">
               <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
             </div>
 
-            <div class="kidz-timeslot">
 
-
-            </div>
 
           </div> <!-- End Section 1 -->
         </div> <!-- End Kidz Wrapper -->
