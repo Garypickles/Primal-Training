@@ -19,7 +19,7 @@
 
             <div class="kidz-hero-logo mobile">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero-mobile.svg" alt="Join The Club">
-              <h2>yorkshire’s leading training team&nbsp;presents</h2>
+              <h3 class="kidz-try-text">Private Tryit Event</br><span>On&nbsp;The&nbsp;21st&nbsp;May</span></br>50 Kids Only</h3>
             </div>
 
             <div class="kidz-timeslot">
