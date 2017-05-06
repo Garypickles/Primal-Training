@@ -14,7 +14,7 @@
 
             <div class="kidz-hero-logo not-mobile">
               <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero.svg" alt="Join The Club">
-              <h3 class="kidz-try-text">Private Tryit Event</br><span>On&nbsp;The&nbsp;21st&nbsp;May</span></br>50 Kids Only</h3>
+              <h3 class="kidz-try-text">Private Tryit Event</br><span>On&nbsp;The&nbsp;20th & 21st&nbsp;May</span></br>50 Kids Only</h3>
             </div>
 
             <div class="kidz-hero-logo mobile">
