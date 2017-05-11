@@ -28,7 +28,7 @@
 
             <div class="kidz-hero-both">
               <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
-              <h2>information&nbsp;leaks <span>sunday&nbsp;may&nbsp;14Th</span></h2>
+              <h2>Starting This  <span>June</span></h2>
             </div>
 
           </div>
