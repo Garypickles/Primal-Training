@@ -423,15 +423,15 @@ endif;
 
 
 
-<?php if(pmpro_hasMembershipLevel(array('7','6'))) { 
+<?php if(pmpro_hasMembershipLevel(array('7','6'))) {
 
     include(locate_template('template-parts/f2lcatchupsession.php'));
 
   } else{ ?>
 
   <div class="tp-notloggedin">
-    
-      
+
+
         <header class="entry-header">
 
           <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
@@ -442,7 +442,7 @@ endif;
 
           <?php the_content(); ?>
 
-        </div><!-- .entry-content -->   
+        </div><!-- .entry-content -->
 
   </div>
 
