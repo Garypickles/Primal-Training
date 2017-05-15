@@ -31,7 +31,7 @@
 // End Delete Session users
 
   // Just add a row
-  $data = 'Gary Pickles';
+  $data = 'Data element ';
 
   $row = array(
     'name'	=> $data
