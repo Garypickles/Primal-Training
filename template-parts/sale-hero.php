@@ -18,7 +18,7 @@
 </div>
 
 	<div class="sale-header">
-		<h1 class="">20% OFF SPRING / SUMMER<br/><span>SALE</span></h1>
+		<h1>£20 OFF SUMMER SALE 72 HOUR<br/><span>SALE</span></h1>
 	</div>
 
 <div class="sms-section">

@@ -252,10 +252,11 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
       while ( have_posts() ) : the_post(); ?>
 
         <div class="top-element" style="width: 100%; max-width: 500px; margin: 0 auto;">
-          <h2>Thank For Choosing This FLAB2LEAN Course</h2>
-          <p>Course total £199.99</p>
+          <h2>Thank For Choosing</h2>
+          <h1><?php the_field( 'active_course_title' ); ?></h1>
+          <p>Course total £179.99</p>
           <p>Deposit £99.99</p>
-          <p>By registering for this course and paying the deposit I agree to pay the balance of £100.00 in full on <?php the_field( 'start_date' ); ?>, first session.</p>
+          <p>By registering for this course and paying the deposit I agree to pay the balance of £80.00 in full on <?php the_field( 'start_date' ); ?>, first session.</p>
           <p>Click on the Register button below to sign up for your FREE Team Primal account and register your palce with Flab2Lean.</p>
 
           <?php the_content(); ?>

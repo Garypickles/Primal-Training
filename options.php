@@ -12,7 +12,7 @@ get_header();
 <?php
 // normal hero optionspage.php
 // Sale Hero sale-hero.php
-include(locate_template('template-parts/optionspage.php'));
+include(locate_template('template-parts/sale-hero.php'));
 ?>
 
 
@@ -57,7 +57,7 @@ include(locate_template('template-parts/optionspage.php'));
 
 							</div>
 							<!-- Inbetween Butons -->
-
+<?php putRevSlider("textsale") ?>
 							<!-- End Inbetween Butons -->
 							<?php
 							if ($spaces_remaining <= 0) { ?>
