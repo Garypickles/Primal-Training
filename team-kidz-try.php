@@ -30,8 +30,6 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
             </div>
 
-
-
           </div> <!-- End Section 1 -->
         </div> <!-- End Kidz Wrapper -->
 
