@@ -38,9 +38,9 @@ get_header(); ?>
 // sorting which week where on
 $coursestartdate = get_field('course_start_date');
 // Just the date
-$createDate = new DateTime($coursestartdate);
+// $createDate = new DateTime($coursestartdate);
 
-$strip = $createDate->format('d/m/Y');
+// $strip = $createDate->format('d/m/Y');
 // Today
 $today = date("y-m-d g:i");
 // Difference in Min
@@ -91,9 +91,7 @@ $day = intval($dayoftheweekmin / 86400);
   <!-- Add Target Time -->
   <div class="time-set">
     <div class="position">F2L</div>
-    <div class="name">Target Time</div>
-    <div class="program-time-set">15:00</div>
-    <div class="date-set"><?php echo $strip; ?></div>
+    <div class="name" style="flex: 1 1 100%; text-align: center;">Target Time 15:00</div>
   </div>
   <?php
   foreach( $repeater as $row ) {
@@ -111,7 +109,7 @@ $day = intval($dayoftheweekmin / 86400);
           <!-- Leaderboard Entry -->
           <div class="time-set">
             <div class="position"><?php echo $p; ?></div>
-            <div class="name"><?php echo $row['f2lname']; ?></div>
+            <div class="target-time"><?php echo $row['f2lname']; ?></div>
             <div class="program-time-set"><?php echo $row['f2l_time_set']; ?></div>
             <div class="date-set"><?php echo $row['f2l_date_set']; ?></div>
           </div>

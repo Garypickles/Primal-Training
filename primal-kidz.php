@@ -22,7 +22,7 @@
               <?php
             }else {
               ?>
-                <h3 class="kidz-try-text">Click the link below to sign your child up to <span>Primal Kidz!</span></h3>
+                <h3 class="kidz-try-text">Click the link below to sign your Cub up to <span>Primal&nbspCubz!</span></h3>
             <?php } ?>
           </div>
 
@@ -35,7 +35,7 @@
                 <?php
               }else {
                 ?>
-                  <h3 class="kidz-try-text">Click the link below to sign your child up to <span>Primal Kidz!</span></h3>
+                  <h3 class="kidz-try-text">Click the link below to sign your Cub up to <span>Primal&nbspCubz!</span></h3>
               <?php } ?>
 
           </div>
