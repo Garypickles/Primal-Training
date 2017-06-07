@@ -9182,6 +9182,54 @@ a:visited {
   .signup-wrapper {
     padding-top: 0px; } }
 
+.pk-info {
+  padding-top: 60px; }
+
+.signuplink {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 50px auto; }
+
+.kidz-header {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.info-wrapper {
+  position: relative;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 40px; }
+  .info-wrapper .rough-background {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; }
+    .info-wrapper .rough-background img {
+      width: 100%;
+      height: 100%; }
+  .info-wrapper .info-inner-wrapper {
+    position: relative;
+    z-index: 2;
+    padding: 30px 0px; }
+  .info-wrapper .leader-text {
+    font-size: 22px;
+    margin: 20px; }
+  .info-wrapper ul {
+    list-style: none;
+    width: 300px;
+    margin: 0 auto; }
+  .info-wrapper span {
+    color: #FAA71A;
+    font-weight: 600;
+    font-size: 24px; }
+  .info-wrapper em {
+    color: #FAA71A;
+    font-weight: 600; }
+
 /*-------------------------------------------------------------
 # Fancy Button
 --------------------------------------------------------------*/

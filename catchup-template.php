@@ -25,6 +25,32 @@
 
   }
 
+// Delete Session Users
+ if(isset($_GET['clear'])){
+
+      $val = $_GET['clear'];
+      $val = substr($val, 7);
+
+      // instance vars.
+      $uid        = $_POST['user_id'];       // current user ID
+      $field_key  = $val;                    // ACF field name
+      $post_id    = $_POST['post_id'];       // Post ID of draw to update
+      // $post_id    = 1130;       // Static Post ID
+
+      // Get member_entries field
+      $value = get_field($field_key, $post_id);
+
+      $new_value = array();
+      foreach ( $value as $id => $entry ) {
+        if ($entry['user_id'] == $uid) continue;
+        $new_value[$id] = $entry;
+      }
+
+      $status = update_field( $field_key, $new_value, $post_id );
+
+    };
+// End Delete Session users
+
  get_header();
 
  /* How Many Spaces a User Can Logon To */
