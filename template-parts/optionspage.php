@@ -16,7 +16,7 @@
 		</div>
 		<?php /* video will play full width, put it in a container to control width */ ?>
 		<div class="headline-video">
-			<div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/192527728' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+			<div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/<?php the_field( 'vimeo_video_id' ); ?>' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 		</div>
 	</div>
 
