@@ -15,6 +15,8 @@ $difference = strtotime($today) - strtotime($startdate);
 
 $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 seconds , 1 Week 604800
 
+$popup = "false";
+
 ?>
 
 
@@ -141,6 +143,7 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
             // End Weekly Part
           }elseif ($difference*5 > 0 and $difference < $interval*6){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
@@ -161,6 +164,7 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
             // End Weekly Part
           }elseif ($difference*6 > 0 and $difference < $interval*7){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
@@ -181,6 +185,7 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
             // End Weekly Part
           }elseif ($difference*7 > 0 and $difference < $interval*8){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
@@ -201,6 +206,7 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
             // End Weekly Part
           }elseif ($difference*8 > 0 and $difference < $interval*9){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
@@ -221,6 +227,7 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
             // End Weekly Part
           }elseif ($difference*9 > 0 and $difference < $interval*10){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
@@ -264,6 +271,24 @@ $interval = 604800;   // 1 min 60 seconds, 1hr 3600 seconds , 1 Day 86400 second
         </div><!-- .entry-content -->
 
       <?php endwhile; } ?>
+
+      <?php if ($popup == "true"): echo $popup; ?>
+
+        <!-- modal window -->
+          <div class="promo-wrapper" id="promo-wrapper">
+            <div class="promo-modal">
+              <div class="promo-modal-close" id="promo-modal-close">
+                <img alt="" src="<?php bloginfo('url');?>/wp-content/uploads/2016/close-icon.png">
+              </div>
+              <?php the_field( 'promo_window_text' ); ?>
+              <div class="button-wrapper">
+                <a class="op-button" href="<?php the_field( 'promo_link' ); ?>">Book Your Next Course&nbspNow!</a>
+              </div>
+            </div>
+          </div>
+        <!-- /End modal window -->
+
+        <?php endif ?>
 
 
       <!-- /End Page Content -->
