@@ -123,6 +123,7 @@ $popup = "false";
             // End Weekly Part
           }elseif ($difference*4 > 0 and $difference < $interval*5){
             // Start Weekly Part
+            $popup = "true";
 
                 // Header Part
                 include(locate_template('template-parts/active-header.php'));
