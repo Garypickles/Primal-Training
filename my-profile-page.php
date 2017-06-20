@@ -127,7 +127,6 @@
                <?php } ?>
             <!-- /End Flab2lean Preminum -->
 
-
                 <?php
                   if(pmpro_hasMembershipLevel('1'))
                   {

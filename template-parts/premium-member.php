@@ -28,3 +28,18 @@
   <!-- End /Level Logoin section -->
 
 </article>
+
+<div class="premium-program-times">
+  <h2>Premium Sessions</h2>
+  <ul>
+    <li>Monday 6:00pm</li>
+    <li>Tuesday 6:30am & 6:10pm</li>
+    <li>Wednesday 6:30pm</li>
+    <li>Thursday 7:00pm & 8:00pm</li>
+    <li>Saturday 9:00am</li>
+    <li>Sunday 8:15am and 11:00am</li>
+    <li class="no-line"><h2>Plus Private Premium Bootcamp</h2></li>
+    <li>Friday 5:00pm & 5:30pm</li>
+  </ul>
+
+</div>

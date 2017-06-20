@@ -9317,3 +9317,61 @@ a:visited {
 /*--------------------------------------------------------------
 # End Fancy Button
 --------------------------------------------------------------*/
+.user-page-settings {
+  text-align: left;
+  padding: 0px; }
+
+.tp-user-images {
+  background: peachpuff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .tp-user-images .user-image {
+    flex: 1 1 50%;
+    width: 50%;
+    height: 0px;
+    padding-bottom: 75%; }
+  .tp-user-images .tp-image-before {
+    background: green; }
+  .tp-user-images .tp-image-current {
+    background: purple; }
+
+.tp-info-item p {
+  padding: 0px;
+  margin: 0px; }
+
+.override .acf-button {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 38px;
+  background-color: darkgray;
+  padding: 0px; }
+
+.before-after {
+  background: pink; }
+
+.premium-program-times {
+  background-color: white;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px; }
+  .premium-program-times h2 {
+    line-height: 26px; }
+  .premium-program-times ul {
+    list-style: none;
+    margin: 0px; }
+    .premium-program-times ul li {
+      position: relative;
+      margin-bottom: 15px; }
+      .premium-program-times ul li::before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        width: 200px;
+        height: 1px;
+        border-bottom: 1px dotted black;
+        transform: translate(-50%, 0px); }
+    .premium-program-times ul .no-line::before {
+      opacity: 0; }
