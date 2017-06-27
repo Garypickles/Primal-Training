@@ -207,36 +207,11 @@
               <!-- End Sunday Twelve -->
 
               <!-- Monday Six -->
-                
+
               <!-- End Monday Six -->
 
               <!-- Monday Eight -->
-                <div class="class-wrapper f2l-class-wrapper">
-                  <?php
-                   if ($bookedMondayEight == booked) {
-                     echo '<div class = "primafituk-booking-confirm-tab"><p>BOOKED</p></div>';
-                   }
-                   ?>
-                  <p class="class-time class-text">Monday</p>
-                  <p class="class-time class-text">8:00pm</p>
-                  <p class="class-number class-text"><?php echo $mondayeightnum;?></p>
-                  <p class="class-starp class-text">Space Available</p>
-                  <?php
-                  if ($totalSessionsBooked < $logedspaces){
 
-                   if ($mondayeightnum > 0) {
-
-                     echo "<a class='bc-button class-button classftwol' data-class='mon_eight' data-which='Monday 8:00pm' href=''>Book This Class</a>";
-
-                   } else {
-                     echo "<h3>Fully Booked</h3>";
-                   }
-
-                 }else{
-                   // echo "More Than Two Booked";
-                 };?>
-
-                </div>
               <!-- End Monday Eight -->
 
               <!-- Tuesday Six -->
@@ -335,7 +310,7 @@
               <!-- End Wednesday Eight -->
 
               <!-- Friday Six -->
-                <div class="class-wrapper f2l-class-wrapper">
+                <div class="class-wrapper f2l-class-wrapper none">
                   <?php
                    if ($bookedFridaySix == booked) {
                      echo '<div class = "primafituk-booking-confirm-tab"><p>BOOKED</p></div>';
@@ -364,7 +339,7 @@
               <!-- End Friday Six -->
 
               <!-- Friday Seven -->
-                <div class="class-wrapper f2l-class-wrapper">
+                <div class="class-wrapper f2l-class-wrapper none">
                   <?php
                    if ($bookedFridaySeven == booked) {
                      echo '<div class = "primafituk-booking-confirm-tab"><p>BOOKED</p></div>';
