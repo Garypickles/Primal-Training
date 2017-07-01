@@ -1,0 +1,33 @@
+.premium-program-times{
+  background-color: white;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  h2{
+    line-height: 26px;
+  }
+  ul{
+    list-style: none;
+    margin: 0px;
+    li{
+      position: relative;
+      margin-bottom: 15px;
+      &::before{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        width: 200px;
+        height: 1px;
+        border-bottom: 1px dotted black;
+        transform: translate(-50% , 0px );
+      }
+    }
+    .no-line{
+      &::before{
+        opacity: 0;
+      }
+    }
+  }
+}

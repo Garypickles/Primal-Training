@@ -399,8 +399,8 @@
 
 
 		  $(".video-thumb").click(function() {
-		      event.preventDefault();	      
-		      $('.video').hide();	      
+		      event.preventDefault();
+		      $('.video').hide();
 		      $('#' + $(this).data('rel')).fadeIn('slow');
 
 		      $('html, body').animate({

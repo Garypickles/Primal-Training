@@ -4,7 +4,28 @@ $( document ).ready(function() {
 	  $( "#promo-wrapper" ).hide();
 	});
 
-  plyr.setup();
+	$("#before-after").hide();
+	$("#weight-section-stats").hide();
+	$("#measurement").hide();
+
+	$("#top-user-section").click(function(){
+		event.preventDefault();
+	  $( "#before-after" ).slideToggle();
+	});
+
+	$("#weight-section").click(function(){
+		event.preventDefault();
+	  $( "#weight-section-stats" ).slideToggle();
+	});
+
+	$("#measurement-section").click(function(){
+		event.preventDefault();
+	  $( "#measurement" ).slideToggle();
+	});
+
+
+
+  // plyr.setup();
 
   // $(".video-thumb").click(function() {
   //     event.preventDefault();
