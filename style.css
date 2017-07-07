@@ -9139,9 +9139,12 @@ a:visited {
   font-weight: 300;
   font-size: 50px;
   line-height: 55px;
-  color: white; }
+  color: white;
+  margin: 0 20px; }
   .kidz-try-text span, .kidz-try-text span span {
     color: #FAA71A; }
+    .kidz-try-text span a, .kidz-try-text span span a {
+      color: #FAA71A; }
 
 .kidz-try-text-info {
   text-transform: uppercase;
