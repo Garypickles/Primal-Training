@@ -13,48 +13,65 @@
       <div class="kidz-wrapper signup-wrapper">
         <div class="kidz-section section-01">
 
-          <div class="kidz-hero-logo not-mobile">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero.svg" alt="Join The Club">
-            <?php
-              if(pmpro_hasMembershipLevel('10'))
-              { ?>
-
-              <?php
-            }else {
-              ?>
-                <h3 class="kidz-try-text">Scroll down for info and bookings <span>Primal&nbspCubz!</span></h3>
-            <?php } ?>
+          <div class="kidz-hero">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/chevron-arrow-down.png" alt="Join The Club">
           </div>
 
-          <div class="kidz-hero-logo mobile">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/join-hero-mobile.svg" alt="Join The Club">
-              <?php
-                if(pmpro_hasMembershipLevel('10'))
-                { ?>
+          <h3 class="kidz-try-text">How many sessions would you like your cub to train?</h3>
 
-                <?php
-              }else {
-                ?>
-                  <h3 class="kidz-try-text">Scroll down for info and bookings <span>Primal&nbspCubz!</span></h3>
-              <?php } ?>
+          <div class="pk-course-wrapper" id="pk-course-info">
+
+
+            <div class="pk-course">
+              <div class="pk-course-info">
+                <ul>
+                  <li>£19.99</li>
+                  <li>(Paid Monthly)</li>
+                  <li>x1 45min Weekly Session</li>
+                  <li>Includes Cubz Unifom</li>
+                  <li>Weekley Home Activity Sheets</li>
+                </ul>
+                <div class="sign-up-button">
+                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=11" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
+                </div>
+              </div>
+              <div class="rough-background">
+                <img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/zerif-pro/images/rough-bg.png" alt="">
+              </div>
+            </div>
+
+            <div class="pk-course">
+              <div class="pk-course-info">
+                <ul>
+                  <li>£34.99</li>
+                  <li>(Paid Monthly)</li>
+                  <li>Upto 3x 45min Weekly Session</li>
+                  <li>Includes Cubz Unifom</li>
+                  <li>Weekley Home Activity Sheets</li>
+                </ul>
+                <div class="sign-up-button">
+                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=10" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
+                </div>
+              </div>
+              <div class="rough-background">
+                <img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/zerif-pro/images/rough-bg.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="kp-centered">
+            <h3 class="kidz-try-text">View Our Extensive Timetable</h3>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/chevron-arrow-down.png" alt="Join The Club">
+            <p class="kidz-try-text-info">Book any of these sessions weekly we work around any other hobbies & activitys.</br><span>You can select sessions weekly</span></br><em>(Changable each week!)</em></p>
 
           </div>
+
           <div class="pk-info">
-            <h3 class="kidz-try-text">Welcome to Primal</br>Cubz & Lionz! 🦁😊🐾</h3>
+
             <div class="info-wrapper">
 
               <div class="info-inner-wrapper">
-
-                <div class="kidz-header">
-                  <img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/zerif-pro/images/kidz-header-small.svg" alt="">
-                </div>
-
-
-                <p>The Price is £34.99 or £29.99 for more than one Cub!</br><i>(Message us if you have more than one child joining for discount code.)</i></p>
-
-                <h3>This gets you:</h3>
-
-                <h3><span>X3</span> 45 minute training sessions weekly</br>The <span>Cubz</span> Uniform</br>Weekly home <span>Activity Sheets</span></h3>
+                <h2>Weekley Session Times</h2>
                 <ul>
                   <li>Monday <em style="margin-right: 30px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
                   <li>Wednesday <em style="margin-right: 5px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
@@ -69,32 +86,63 @@
               </div>
             </div>
 
-
           </div>
 
           <div class="signuplink">
 
+            <div class="sign-up-button">
+              <a href="#pk-course-info" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/signuptoday.svg" alt="Join The Club"></a>
+            </div>
+
+            <!-- Kidz Monthley -->
             <?php
               if(pmpro_hasMembershipLevel('10'))
               { ?>
 
-                <h2>Thank You for Signing Up</h2>
 
               <?php
             }else {
               ?>
 
-              <div class="sign-up-button">
-                <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=10" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/signuptoday.svg" alt="Join The Club"></a>
-              </div>
+
+            <?php } ?>
+            <!-- End Kidz Monthley -->
+
+            <!-- Kidz Weekley -->
+            <?php
+              if(pmpro_hasMembershipLevel('11'))
+              { ?>
+
+
+              <?php
+            }else {
+              ?>
 
 
             <?php } ?>
+            <!-- End Kidz Weekley -->
 
           </div>
 
-          <div class="kidz-hero-both">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/kidz-logo-both.svg" alt="Join The Club">
+          <div class="pk-info">
+
+            <div class="info-wrapper">
+
+              <div class="info-inner-wrapper">
+                <h2>What is Primal Cubz & Lionz?</h2>
+                <ul>
+                  <li>Primal Cubz (4-7 Years)</li>
+                  <li>Primal Lionz (8-11 Years)</li>
+                  <li>Kids Fitness & Bootcamp Sessions</li>
+                  <li>Teamwork & Self Confidence</li>
+                  <li>Fun sessions & conditioning training using the Primal method which has the Halifax fitness scene buzzing</li>
+                </ul>
+              </div>
+              <div class="rough-background">
+                <img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/zerif-pro/images/rough-bg.png" alt="">
+              </div>
+            </div>
+
           </div>
 
         </div> <!-- End Section 1 -->

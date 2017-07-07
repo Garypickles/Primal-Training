@@ -9044,9 +9044,10 @@ a:visited {
 --------------------------------------------------------------*/
 /*Section 01*/
 .kidz-wrapper .section-01 {
-  background-image: url("images/cubz-bg.jpg");
+  background-image: url("images/kidz-alt-bg.jpg");
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
 
 .kidz-hero-both, .kidz-hero-logo {
   max-width: 800px;
@@ -9136,18 +9137,36 @@ a:visited {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size: 60px;
-  line-height: 65px;
+  font-size: 50px;
+  line-height: 55px;
   color: white; }
   .kidz-try-text span, .kidz-try-text span span {
     color: #FAA71A; }
 
-@media only screen and (max-width: 600px) {
-  .kidz-try-text, .kidz-try-text span {
-    font-size: 50px;
-    line-height: 55px; } }
+.kidz-try-text-info {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  color: white; }
+  .kidz-try-text-info span {
+    color: #FAA71A;
+    font-size: 30px;
+    line-height: 35px; }
+  .kidz-try-text-info em {
+    text-transform: lowercase;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px; }
 
-@media only screen and (max-width: 500px) {
+.kp-centered {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+@media only screen and (max-width: 600px) {
   .kidz-try-text, .kidz-try-text span {
     font-size: 40px;
     line-height: 45px; } }
@@ -9176,15 +9195,8 @@ a:visited {
   padding: 30px;
   text-align: left; }
 
-.signup-wrapper {
-  padding-top: 100px; }
-
-@media only screen and (max-width: 768px) {
-  .signup-wrapper {
-    padding-top: 0px; } }
-
 .pk-info {
-  padding-top: 60px; }
+  padding-top: 0px; }
 
 .signuplink {
   width: 100%;
@@ -9194,13 +9206,15 @@ a:visited {
 .kidz-header {
   width: 95%;
   margin: 0 auto;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background: peachpuff; }
 
 .info-wrapper {
   position: relative;
+  margin: 0 auto;
   margin: 50px auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
   padding: 40px; }
   .info-wrapper .rough-background {
     position: absolute;
@@ -9215,14 +9229,18 @@ a:visited {
   .info-wrapper .info-inner-wrapper {
     position: relative;
     z-index: 2;
-    padding: 30px 0px; }
+    padding: 0px 0px; }
+    .info-wrapper .info-inner-wrapper h2 {
+      color: black;
+      font-size: 30px;
+      line-height: 35px; }
   .info-wrapper .leader-text {
-    font-size: 22px;
-    margin: 20px; }
+    font-size: 22px; }
   .info-wrapper ul {
     list-style: none;
-    width: 300px;
-    margin: 0 auto; }
+    width: 250px;
+    margin: 0 auto;
+    padding: 0px; }
   .info-wrapper span {
     color: #FAA71A;
     font-weight: 600;
@@ -9230,6 +9248,64 @@ a:visited {
   .info-wrapper em {
     color: #FAA71A;
     font-weight: 600; }
+
+.pk-course-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 0px 0px 0px; }
+
+.pk-course {
+  flex: 0 1 35%;
+  max-width: 300px;
+  position: relative;
+  margin: 0px 20px; }
+  .pk-course .pk-course-info {
+    position: relative;
+    z-index: 1;
+    padding: 10px 40px; }
+    .pk-course .pk-course-info .sign-up-button {
+      max-width: 350px;
+      margin: 20px auto; }
+    .pk-course .pk-course-info ul {
+      margin: 0px;
+      padding: 0px; }
+      .pk-course .pk-course-info ul li {
+        text-align: left; }
+      .pk-course .pk-course-info ul li:nth-of-type(1) {
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        color: #FAA71A;
+        font-weight: 900;
+        list-style: none; }
+      .pk-course .pk-course-info ul li:nth-of-type(2) {
+        font-family: 'Oswald', sans-serif;
+        font-size: 12px;
+        line-height: 2px;
+        margin-bottom: 15px;
+        text-align: center;
+        list-style: none; }
+  .pk-course .rough-background {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; }
+    .pk-course .rough-background img {
+      width: 100%;
+      height: 100%; }
+
+@media only screen and (max-width: 600px) {
+  .pk-course-wrapper {
+    display: block;
+    padding: 30px 0px 0px 0px; }
+  .pk-course {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 20px; } }
 
 /*-------------------------------------------------------------
 # Fancy Button
