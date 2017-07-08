@@ -61,7 +61,7 @@
                   <li>(Paid Monthly)</li>
                   <li>x1 45min Weekly Session</li>
                   <li>Includes Cubz Unifom</li>
-                  <li>Weekley Home Activity Sheets</li>
+                  <li>Weekly Home Activities Sheets</li>
                 </ul>
                 <div class="sign-up-button">
                   <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=11" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
@@ -79,7 +79,7 @@
                   <li>(Paid Monthly)</li>
                   <li>Upto 3x 45min Weekly Session</li>
                   <li>Includes Cubz Unifom</li>
-                  <li>Weekley Home Activity Sheets</li>
+                  <li>Weekly Home Activities Sheets</li>
                 </ul>
                 <div class="sign-up-button">
                   <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=10" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
@@ -93,7 +93,7 @@
           <div class="kp-centered">
             <h3 class="kidz-try-text">View Our Extensive Timetable</h3>
             <img src="<?php echo get_template_directory_uri(); ?>/images/chevron-arrow-down.png" alt="Join The Club">
-            <p class="kidz-try-text-info">Book any of these sessions weekly we work around any other hobbies & activitys.</br><span>You can select sessions weekly</span></br><em>(Changable each week!)</em></p>
+            <p class="kidz-try-text-info">Book any of these sessions weekly we work around any other hobbies & activities.</br><span>You can select sessions weekly</span></br><em>(Changable each week!)</em></p>
 
           </div>
 
@@ -102,7 +102,7 @@
             <div class="info-wrapper">
 
               <div class="info-inner-wrapper">
-                <h2>Weekley Session Times</h2>
+                <h2>Weekly Session Times</h2>
                 <ul>
                   <li>Monday <em style="margin-right: 30px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
                   <li>Wednesday <em style="margin-right: 5px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
