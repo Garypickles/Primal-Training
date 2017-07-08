@@ -61,7 +61,7 @@
                   <li>(Paid Monthly)</li>
                   <li>x1 45min Weekly Session</li>
                   <li>Includes Cubz Unifom</li>
-                  <li>Weekly Home Activities Sheets</li>
+                  <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
                   <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=11" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
@@ -79,7 +79,7 @@
                   <li>(Paid Monthly)</li>
                   <li>Upto 3x 45min Weekly Session</li>
                   <li>Includes Cubz Unifom</li>
-                  <li>Weekly Home Activities Sheets</li>
+                  <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
                   <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=10" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
