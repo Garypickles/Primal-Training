@@ -36,7 +36,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
 
-<?php if (is_page( array('primal-kidz', 'team-primal', 'primalcubz', 'primal-cubz-try-day')) ): ?>
+<?php if (is_page( array('flab2lean-booking-page', 'primal-kidz', 'team-primal', 'primalcubz', 'primal-cubz-try-day')) ): ?>
 
 	<style>
 
