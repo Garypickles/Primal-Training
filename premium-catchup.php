@@ -18,8 +18,7 @@
 
      $i = add_row($class, $row);
 
-     header('Location: http://primaltraininguk.com/flab2lean-catch-up-sessions/');
-
+     header('Location: http://primaltraininguk.com/premium-catch-up/');
 
   }else{
 
@@ -82,7 +81,7 @@
     $booked_sun_eight15 = 'null';
     $booked_sun_eleven = 'null';
 
-/* Session Details */
+/* Session Details as arrays */
 
     $mon_six = array(
       "Monday",

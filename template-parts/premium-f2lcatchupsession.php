@@ -30,7 +30,7 @@
 
             <!-- mon_six-->
             <?php if ($booked_mon_six == booked) {
-              echo '<h3>Your Booked in for'.$mon_six[0].' '.$mon_six[0].' Monday 6:00pm FLAB2LEAN Catch-Up Session</h3>';
+              echo '<h3>Your Booked in for'.$mon_six[0].' '.$mon_six[1].' FLAB2LEAN Catch-Up Session</h3>';
             }; ?>
 
           </div>
