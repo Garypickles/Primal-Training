@@ -440,6 +440,8 @@
 
 		</script>
 
+		<!-- Catch Up Sessions -->
+
 		<?php if (is_page( 'flab2lean-catch-up-sessions' ) ): ?>
 
 			  <script>
@@ -499,6 +501,72 @@
 			  </script>
 
 		<?php endif; ?>
+
+		<!-- End Catch Up Sessions -->
+
+		<!-- Premium Catch Up Sessions -->
+
+		<?php if (is_page( 'premium-catch-up' ) ): ?>
+
+			  <script>
+
+					$(document).ready(function(e) {
+					var $input = $('#refresh');
+
+					$input.val() == 'yes' ? location.reload(true) : $input.val('yes');
+					});
+
+					$url = "http://primaltraininguk.com";
+					$current_page = "premium-catch-up"
+					$( document ).ready( function() {
+
+						var checksuccess = localStorage.getItem( 'placebooked' );
+						if ( checksuccess == 'Sucess' ) {
+							$( ".success-wrapper" )
+								.removeClass( "none" );
+							localStorage.removeItem( "placebooked" );
+						} else {
+							// alert("Nope....");
+						}
+						$( ".classftwol" )
+							.on( 'click', function() {
+								event.preventDefault();
+								$class = $( this )
+									.data( 'class' );
+								$dayofweek = $( this )
+									.data( 'which' );
+								$( ".confirm-cofirm" )
+									.attr( 'href', $url + '/' + $current_page + '/?myClass=' + $class )
+								$( ".confirm-wrapper h3" )
+									.text( "Your about to book your palce on " + $dayofweek + " Flab2Lean Catch up Sessions." );
+								$( ".confirm-wrapper" )
+									.toggleClass( "confirm-hidden" );
+								$( ".confirm-wrapper" )
+									.children()
+									.each( function() {
+										$( this )
+											.addClass( "fadeInUp" );
+									} );
+							} );
+						$( ".confirm-cancel" )
+							.on( 'click', function() {
+								event.preventDefault();
+								$( ".confirm-wrapper" )
+									.toggleClass( "confirm-hidden" );
+							} );
+						$( ".confirm-cofirm" )
+							.on( 'click', function() {
+					  $( ".confirm-wrapper" ).toggleClass( "confirm-hidden" );
+								var idvalue = 'Sucess';
+								localStorage.setItem( 'placebooked', idvalue );
+							} );
+					} );
+
+			  </script>
+
+		<?php endif; ?>
+
+		<!-- End Premium Catch Up Sessions -->
 
 		<?php if (is_page( 'f2l-premium-program' ) ): ?>
 
