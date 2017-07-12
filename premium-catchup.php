@@ -376,7 +376,7 @@
 
 
 
-<?php if(pmpro_hasMembershipLevel(array('7','6'))) {
+<?php if(pmpro_hasMembershipLevel(array('6'))) {
 
     include(locate_template('template-parts/premium-f2lcatchupsession.php'));
 
