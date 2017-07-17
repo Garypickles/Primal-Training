@@ -258,7 +258,13 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
       <!-- Top User Section -->
       <div class="top-user-section">
         <div class="top-section-promt">
+          <?php $before = get_field( 'before' ); ?>
+            <?php if ( $before ) {
 
+            }else{
+              ?>
+              <img src="<?php bloginfo( url ); ?>/wp-content/themes/zerif-pro/images/startby.png" alt="Start By">
+            <?php } ?>
         </div>
         <!-- User Images -->
           <div class="tp-user-images">
