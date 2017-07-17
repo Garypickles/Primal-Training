@@ -66,7 +66,7 @@ Choices of 'div', 'tr', 'td', 'ul', 'ol', 'dl' */
 
 /* (string) Whether to use the WP uploader or a basic input for image and file fields. Defaults to 'wp'
 Choices of 'wp' or 'basic'. Added in v5.2.4 */
-'uploader' => 'wp',
+'uploader' => 'basic',
 
 /* (boolean) Whether to include a hidden input field to capture non human form submission. Defaults to true. Added in v5.3.4 */
 'honeypot' => true,
@@ -248,7 +248,7 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
  	<div class="container">
 
  		<div id="primary" class="content-area user-page-settings">
-      
+
       <!-- top user section form -->
       <div class="before-after override" id="before-after">
         <?php acf_form($beforeafter); ?>
@@ -258,31 +258,28 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
       <!-- Top User Section -->
       <div class="top-user-section">
         <div class="top-section-promt">
-          <?php $before = get_field( 'before' ); ?>
-            <?php if ( $before ) {
 
-            }else{
-              ?>
-              <img src="<?php bloginfo( url ); ?>/wp-content/themes/zerif-pro/images/startby.png" alt="Start By">
-            <?php } ?>
         </div>
         <!-- User Images -->
           <div class="tp-user-images">
 
               <div class="tp-image-before user-image"
-              <?php $before = get_field( 'before' ); ?>
+              <?php $before = get_field( 'before' );
+                    $imageBefore = $before['sizes']['medium'];
+              ?>
                   <?php if ( $before ) { ?>
-                    style="background-image: url(<?php the_field( 'before' ); ?>"
-
+                    style="background-image: url('<?php echo $imageBefore  ?>')"
                   <?php }else{ ?>
                     style="background-image: url('<?php bloginfo( url ); ?>/wp-content/themes/zerif-pro/images/before-icon.jpg');"
                   <?php } ?> >
               </div>
 
               <div class="tp-image-current user-image"
-              <?php $after = get_field( 'after' ); ?>
+              <?php $after = get_field( 'after' );
+                    $imageAfter = $after['sizes']['medium'];
+              ?>
               <?php if ( $after ) { ?>
-                style="background-image: url(<?php the_field( 'after' ); ?>"
+                style="background-image: url('<?php echo $imageBefore  ?>' ); ?>"
 
               <?php }else{ ?>
                 style="background-image: url('<?php bloginfo( url ); ?>/wp-content/themes/zerif-pro/images/after-icon.jpg');"
@@ -296,10 +293,10 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
               <div class="tp-user-info">
 
                   <h1><?php $current_user = wp_get_current_user(); echo $current_user->user_login ; ?></h1>
-                  <div class="tp-info-item"><p>Start Weight: 10<span>s</span> 12<span>lb</span> 6<span>oz</span></p></div>
-                  <div class="tp-info-item"><p>Current Weight: 9<span>s</span> 1<span>lb</span> 6<span>oz</span></p></div>
-                  <div class="tp-info-item"><p>Height: 5<span>ft</span> 7<span>in</span></p></div>
-                  <div class="tp-info-item"><p>Body Fat: 30<span>%</span></p></div>
+                  <div class="tp-info-item"><p>Start Weight: <?php the_field( 'start_weight_stones' ); ?><span>s</span> <?php the_field( 'start_weight_pounds' ); ?><span>lb</span> <?php the_field( 'start_weight_ounces' ); ?><span>oz</span></p></div>
+                  <!-- <div class="tp-info-item"><p>Current Weight: 9<span>s</span> 1<span>lb</span> 6<span>oz</span></p></div> -->
+                  <div class="tp-info-item"><p>Height: <?php the_field( 'height_feet' ); ?><span>ft</span> <?php the_field( 'height_inches' ); ?><span>in</span></p></div>
+                  <!-- <div class="tp-info-item"><p>Body Fat: 30<span>%</span></p></div> -->
 
                   <!-- Flab2Lean Logo -->
                   <div class="mp-logo">
