@@ -23,6 +23,10 @@ $( document ).ready(function() {
 	  $( "#measurement" ).slideToggle();
 	});
 
+	$(".button-primary").click(function(){
+
+		$( "#uploader-model" ).toggleClass( "none" );
+	});
 
 
   // plyr.setup();

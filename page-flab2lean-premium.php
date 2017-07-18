@@ -239,6 +239,13 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
 
  <div class="clear"></div>
 
+ <!-- Upload Model -->
+<div class="uploader-model none" id="uploader-model">
+  <div class="lds-css ng-scope">
+  <div class="lds-gear" style="100%;height:100%"><div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+</div>
+ <!-- Upload Model -->
+
  </header> <!-- / END HOME SECTION  -->
 
  <?php zerif_after_header_trigger(); ?>
