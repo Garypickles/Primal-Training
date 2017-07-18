@@ -30,8 +30,69 @@
 
             <!-- mon_six-->
             <?php if ($booked_mon_six == booked) {
-              echo '<h3>Your Booked in for'.$mon_six[0].' '.$mon_six[1].' FLAB2LEAN Catch-Up Session</h3>';
+              echo '<h3>Your Booked in for '.$mon_six[0].' '.$mon_six[1].' FLAB2LEAN Catch-Up Session</h3>';
             }; ?>
+						<!-- End mon_six-->
+
+						<!-- tue_six30-->
+            <?php if ($booked_tue_six30 == booked) {
+              echo '<h3>Your Booked in for '.$tue_six30[0].' '.$tue_six30[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End tue_six30-->
+
+						<!-- tue_six10-->
+            <?php if ($booked_tue_six10 == booked) {
+              echo '<h3>Your Booked in for '.$tue_six10[0].' '.$tue_six10[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End tue_six10-->
+
+						<!-- wed_six30-->
+            <?php if ($booked_wed_six30 == booked) {
+              echo '<h3>Your Booked in for '.$wed_six30[0].' '.$wed_six30[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End wed_six30-->
+
+						<!-- thu_seven-->
+            <?php if ($booked_thu_seven == booked) {
+              echo '<h3>Your Booked in for '.$thu_seven[0].' '.$thu_seven[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End thu_seven-->
+
+						<!-- thu_eight-->
+            <?php if ($booked_thu_eight == booked) {
+              echo '<h3>Your Booked in for '.$thu_eight[0].' '.$thu_eight[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End thu_eight-->
+
+						<!-- sat_nine-->
+            <?php if ($booked_sat_nine == booked) {
+              echo '<h3>Your Booked in for '.$sat_nine[0].' '.$sat_nine[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End sat_nine-->
+
+						<!-- sun_eight15-->
+            <?php if ($booked_sun_eight15 == booked) {
+              echo '<h3>Your Booked in for '.$sun_eight15[0].' '.$sun_eight15[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End sun_eight15-->
+
+						<!-- sun_eleven-->
+            <?php if ($booked_sun_eleven == booked) {
+              echo '<h3>Your Booked in for '.$sun_eleven[0].' '.$sun_eleven[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End sun_eleven-->
+
+						<!-- fri_five-->
+            <?php if ($booked_fri_five == booked) {
+              echo '<h3>Your Booked in for '.$fri_five[0].' '.$fri_five[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End fri_five-->
+
+						<!-- fri_five30-->
+            <?php if ($booked_fri_five30 == booked) {
+              echo '<h3>Your Booked in for '.$fri_five30[0].' '.$fri_five30[1].' FLAB2LEAN Catch-Up Session</h3>';
+            }; ?>
+						<!-- End fri_five30-->
 
           </div>
 
@@ -313,6 +374,78 @@
 
                 </div>
               <!-- End sun_eleven -->
+
+
+<div class="premium-bootcamp" style="padding-top: 150px; width: 100%;">
+	<!-- Start Bootcamp for TP -->
+	<div class="boot-bootcamp">
+	  <div class="inner-bootcamp">
+	    <h1>PREMIUM BOOTCAMPS</h1>
+	    <h2>BOOK YOUR PLACE</h2>
+	  </div>
+	</div>
+	<!-- End Bootcamp for TP -->
+</div>
+
+							<!-- fri_five -->
+                <div class="class-wrapper f2l-class-wrapper">
+                  <?php
+                   if ($booked_fri_five == booked) {
+                     echo '<div class = "primafituk-booking-confirm-tab"><p>BOOKED</p></div>';
+                   }
+                   ?>
+                  <p class="class-time class-text"><?php echo $fri_five[0];?></p>
+                  <p class="class-time class-text"><?php echo $fri_five[1];?></p>
+                  <p class="class-number class-text"><?php echo $num_fri_five;?></p>
+                  <p class="class-starp class-text">Space Available</p>
+
+                  <?php
+                  if ($totalSessionsBooked < $logedspaces){
+
+                    if ($num_fri_five > 0) {
+
+                      echo "<a class='bc-button class-button classftwol' data-class='fri_five' data-which=' ". $fri_five[0]." ".$fri_five[1]." ' href=''>Book This Class</a>";
+
+                      } else {
+                        echo "<h3>Fully Booked</h3>";
+                      }
+
+                  }else{
+                    // echo "More Than Two Booked";
+                  };?>
+
+                </div>
+              <!-- End fri_five -->
+
+							<!-- fri_five30 -->
+                <div class="class-wrapper f2l-class-wrapper">
+                  <?php
+                   if ($booked_fri_five30 == booked) {
+                     echo '<div class = "primafituk-booking-confirm-tab"><p>BOOKED</p></div>';
+                   }
+                   ?>
+                  <p class="class-time class-text"><?php echo $fri_five30[0];?></p>
+                  <p class="class-time class-text"><?php echo $fri_five30[1];?></p>
+                  <p class="class-number class-text"><?php echo $num_fri_five30;?></p>
+                  <p class="class-starp class-text">Space Available</p>
+
+                  <?php
+                  if ($totalSessionsBooked < $logedspaces){
+
+                    if ($num_fri_five30 > 0) {
+
+                      echo "<a class='bc-button class-button classftwol' data-class='fri_five30' data-which=' ". $fri_five30[0]." ".$fri_five30[1]." ' href=''>Book This Class</a>";
+
+                      } else {
+                        echo "<h3>Fully Booked</h3>";
+                      }
+
+                  }else{
+                    // echo "More Than Two Booked";
+                  };?>
+
+                </div>
+              <!-- End fri_five30 -->
 
 					</div>
 

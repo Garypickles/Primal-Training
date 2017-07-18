@@ -24,6 +24,7 @@
 
   }
 
+
 // Delete Session Users
  if(isset($_GET['clear'])){
 
@@ -66,6 +67,8 @@
     $classtotal_sat_nine = get_field('sat_nine_spaces');
     $classtotal_sun_eight15 = get_field('sun_eight15_spaces');
     $classtotal_sun_eleven = get_field('sun_eleven_spaces');
+    $classtotal_fri_five = get_field('fri_five_spaces');
+    $classtotal_fri_five30 = get_field('fri_five30_spaces');
 
 
 
@@ -80,6 +83,8 @@
     $booked_sat_nine = 'null';
     $booked_sun_eight15 = 'null';
     $booked_sun_eleven = 'null';
+    $booked_fri_five = 'null';
+    $booked_fri_five30 = 'null';
 
 /* Session Details as arrays */
 
@@ -126,6 +131,16 @@
     $sun_eleven = array(
       "Sunday",
       "11:00am"
+    );
+
+    $fri_five = array(
+      "Friday",
+      "5:00pm"
+    );
+
+    $fri_five30 = array(
+      "Friday",
+      "5:30pm"
     );
 
 
@@ -350,6 +365,54 @@
     $num_sun_eleven = $classtotal_sun_eleven - $count_sun_eleven;
 
 /* End Count sun_eleven */
+
+/* Count fri_five */
+
+    if( have_rows('fri_five') ):
+      $i = 0;
+      while( have_rows('fri_five') ): the_row();
+        if( get_sub_field('name') ) $i++;
+
+          $currentname = get_sub_field('name');
+
+        if ($currentname == $fullname) {
+              $booked_fri_five = 'booked';
+              $totalSessionsBooked++;
+            }
+
+     endwhile;
+
+      $count_fri_five = $i;
+
+    endif;
+
+    $num_fri_five = $classtotal_fri_five - $count_fri_five;
+
+/* End Count fri_five */
+
+/* Count fri_five30 */
+
+    if( have_rows('fri_five30') ):
+      $i = 0;
+      while( have_rows('fri_five30') ): the_row();
+        if( get_sub_field('name') ) $i++;
+
+          $currentname = get_sub_field('name');
+
+        if ($currentname == $fullname) {
+              $booked_fri_five30 = 'booked';
+              $totalSessionsBooked++;
+            }
+
+     endwhile;
+
+      $count_fri_five30 = $i;
+
+    endif;
+
+    $num_fri_five30 = $classtotal_fri_five30 - $count_fri_five30;
+
+/* End Count fri_five30 */
 
 
 
