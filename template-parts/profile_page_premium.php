@@ -59,7 +59,7 @@
                 ?>
 
                 <div class="button-wrapper">
-                  <a class="mpp-button" href="<?php echo '/user-pages/'.$cleanUrl.'/flab2lean-premium/'; ?>">BOOK NOW</a>
+                  <a class="mpp-button" href="<?php echo '/user-pages/'.$cleanUrl.'/flab2lean-premium/'; ?>">YOUR STATS PAGE</a>
                 </div>
 
           </div>

@@ -592,7 +592,7 @@ Choices of 'wp' or 'basic'. Added in v5.2.4 */
               // TO SHOW THE PAGE CONTENTS
               while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
                   <div class="entry-content-page">
-                      <?php the_content(); ?> <!-- Page Content -->
+                      <!-- <?php the_content(); ?> -->
                   </div><!-- .entry-content-page -->
 
               <?php
