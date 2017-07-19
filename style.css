@@ -9635,6 +9635,13 @@ a:visited {
 /*--------------------------------------------------------------
 # User Page
 --------------------------------------------------------------*/
+.stats-wrapper {
+  max-width: 500px;
+  margin: 0 auto; }
+
+.stata-info {
+  color: white; }
+
 .uploader-model {
   position: fixed;
   z-index: 2000;

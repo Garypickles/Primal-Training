@@ -18,7 +18,6 @@
                     <a href="<?php bloginfo('url'); echo '/'.$levellink; ?>" class="level-button"><span>FLAB</span>2<span>LEAN</span> <?php echo $level; ?></a>
 
                     <a href="<?php bloginfo('url'); ?>/f2l-premium-leaderboard/" class="level-button">PREMIUM LEADERBOARD</a>
-
                 </div>
             <!-- End /Level Logoin section -->
 
@@ -30,6 +29,37 @@
 
                 <div class="button-wrapper">
                   <a class="mpp-button" href="/premium-catch-up">BOOK NOW</a>
+                </div>
+
+          </div>
+
+          <div class="catchup-wrapper stats-wrapper">
+
+                <h2 class="catchup-title">Your Premium Stat's Page</h2>
+                <p class="stata-info">Track your weigh & Body fat and keep a track of your stats, including before & After photos</p>
+                <?php
+                    $current_user = wp_get_current_user();
+
+                    $user = $current_user->user_login;
+
+                      function usernameclean($string) {
+                        //Lower case everything
+                        $string = strtolower($string);
+                        //Make alphanumeric (removes all other characters)
+                        $string = preg_replace("/[^a-z0-9_\s-]/", "", $string);
+                        //Clean up multiple dashes or whitespaces
+                        $string = preg_replace("/[\s-]+/", " ", $string);
+                        //Convert whitespaces and underscore to dash
+                        $string = preg_replace("/[\s_]/", "-", $string);
+                        return $string;
+                      }
+
+                      $cleanUrl = usernameclean($user); // call the function
+
+                ?>
+
+                <div class="button-wrapper">
+                  <a class="mpp-button" href="<?php echo '/user-pages/'.$cleanUrl.'/flab2lean-premium/'; ?>">BOOK NOW</a>
                 </div>
 
           </div>

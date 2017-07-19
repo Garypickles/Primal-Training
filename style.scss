@@ -9856,6 +9856,15 @@ background-attachment: fixed;
 # User Page
 --------------------------------------------------------------*/
 
+// user page on profile page
+.stats-wrapper{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.stata-info{
+  color: white;
+}
+// End user page on profile page
 .uploader-model{
   position: fixed;
   z-index: 2000;
