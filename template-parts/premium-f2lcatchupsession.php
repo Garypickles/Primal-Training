@@ -12,7 +12,7 @@
 
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2016/F2L-logo-orig.svg" alt="" />
 
-              <p class="class-week">FLAB2LEAN Catch-Up Sessions</p>
+              <p class="class-week">FLAB2LEAN Book Your Sessions</p>
 
           </div>
 
