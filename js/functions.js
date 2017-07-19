@@ -23,7 +23,7 @@ $( document ).ready(function() {
 	  $( "#measurement" ).slideToggle();
 	});
 
-	$(".button-primary").click(function(){
+	$(".button-large").click(function(){
 
 		$( "#uploader-model" ).toggleClass( "none" );
 	});
