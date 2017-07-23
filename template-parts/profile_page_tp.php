@@ -2,17 +2,6 @@
   if(pmpro_hasMembershipLevel('7')) {
 ?>
 
-<!-- Start Bootcamp for TP -->
-<div class="boot-bootcamp">
-  <div class="inner-bootcamp">
-    <h1>BOOTCAMP</h1>
-    <h2>BOOK YOUR PLACE</h2>
-    <div class="button-wrapper">
-        <a class="mpp-button" href="/bootcamp">BOOK NOW</a>
-    </div>
-  </div>
-</div>
-<!-- End Bootcamp for TP -->
 
 <!-- FLAB2LEAN Catch Up Links -->
 
