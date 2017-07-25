@@ -11,7 +11,7 @@ get_header();
 	<div class="phasetwo-hero">
 		<div class="logo-wrapper"><img alt="" src="<?php bloginfo('url');?>/wp-content/uploads/2016/F2L-logo-orig.svg"></div>
 		<div class="headline">
-			<h1>Book Your Phase Three FLAB2LEAN Course</h1>
+			<h1>Please contact you course instructor for Flab2Lean Premium Details</br>07468&nbsp629130 or 07929&nbsp208695</h1>
 		</div>
 
 	</div>
