@@ -64,5 +64,32 @@
 
           </div>
 
-   <?php } ?>
+      <!-- Video Wrapper for Premium -->
+      <div class="profile-page-wrapper">
+        <h1>Premium Intro & Diet</h1>
+
+        <h2>Premium Intro</h1>
+
+        <div class="headline-video">
+          <div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/227487246' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        </div>
+
+
+        <h2>Premium Stats</h1>
+
+        <div class="headline-video">
+          <div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/227877896' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        </div>
+
+
+        <h2>My Fitness Pal</h1>
+
+        <div class="headline-video">
+          <div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/227889993' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        </div>
+
+      </div>
+
+
+<?php } ?>
 <!-- /End Flab2lean Preminum -->

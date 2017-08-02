@@ -8524,6 +8524,17 @@ a:visited {
   .f2l-program-section .infomation .f2l-button {
     font-size: 18px; } }
 
+.profile-page-wrapper {
+  padding-top: 50px; }
+  .profile-page-wrapper h1 {
+    color: white;
+    font-size: 40px; }
+  .profile-page-wrapper h2 {
+    color: white;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 40px; }
+
 /*************************/
 /** End My Profile Page **/
 /*************************/
