@@ -64,6 +64,22 @@
 
           </div>
 
+      <!-- Premium PDF Files -->
+        <h1 style="color: white;">Premium PDF Booklet</h1>
+      <div class="primal-sessions-pdf">
+
+            <div class="free-pdf-wrapper">
+
+                <img src="http://primaltraininguk.com/wp-content/uploads/2017/08/premium-pdf.jpg" />
+
+                <a class="free-pdf-button" target="_blank" href="http://primaltraininguk.com/wp-content/uploads/2017/08/F2L-Premium-Handbook-Web.pdf" />View PDF File</a>
+
+
+            </div>
+
+      </div>
+      <!-- /End Premium PDF File -->
+
       <!-- Video Wrapper for Premium -->
       <div class="profile-page-wrapper">
         <h1>Premium Intro & Diet</h1>
