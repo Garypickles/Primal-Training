@@ -106,7 +106,7 @@
                 <ul>
                   <li>Monday <em style="margin-right: 30px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
                   <li>Wednesday <em style="margin-right: 5px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
-                  <li>Thursday <em style="margin-right: 22px;">-</em> 5.00pm <em>or</em> 5.45pm</li>
+                  <li>Thursday <em style="margin-right: 22px;">-</em> 4.15pm <em>or</em> 5.00pm</li>
                   <li>Friday <em style="margin-right: 43px;">-</em> 3.45pm <em>or</em> 4.30pm</li>
                   <li>Saturday <em style="margin-right: 10px;">-</em> 10.00am <em>or</em> 10.45am</li>
                   <li>Sunday <em style="margin-right: 18px;">-</em> 11.00am <em>or</em> 12.00pm</li>
