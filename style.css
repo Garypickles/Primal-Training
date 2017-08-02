@@ -8527,11 +8527,11 @@ a:visited {
 .profile-page-wrapper {
   padding-top: 50px; }
   .profile-page-wrapper h1 {
-    color: white;
+    color: white !important;
     font-size: 40px; }
   .profile-page-wrapper h2 {
-    color: white;
-    text-align: left;
+    color: white !important;
+    text-align: left !important;
     font-weight: 100;
     margin-top: 40px; }
 
