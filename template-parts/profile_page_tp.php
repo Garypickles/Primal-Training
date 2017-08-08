@@ -1,6 +1,12 @@
 <?php
-  if(pmpro_hasMembershipLevel('7')) {
-?>
+  if(pmpro_hasMembershipLevel('7')) { ?>
+
+    <!-- Level One & Level Two video - Set Variables -->
+    <?php
+      $levelOneVideo = false;
+      $levelTwoVideo = false;
+    ?>
+    <!-- End Level One & Level Two video - Set Variables -->
 
 
 <!-- FLAB2LEAN Catch Up Links -->
@@ -44,6 +50,8 @@
 
 <!-- /End FLAB2LEAN Catch Up Links -->
 
+
+
 <!-- Post Object For Flab2Lean Courses -->
 
 <?php $post_object = get_field( 'flab_2_lean_programs' ); ?>
@@ -58,7 +66,11 @@
 
               <?php
                   /* Flab2lean Level 1 */
-                  if(pmpro_has_membership_access(get_sub_field( 'course_page_id' ))){ ?>
+                  if(pmpro_has_membership_access(get_sub_field( 'course_page_id' ))){
+
+                    $levelOneVideo = true;
+
+                    ?>
 
                     <div class="f2l-program-section">
                       <div class="logo-program-section">
@@ -78,8 +90,6 @@
                     </div>
 
               <?php }; ?>
-
-
 
             <?php endwhile; ?>
       <?php else : ?>
@@ -108,7 +118,11 @@
               <?php
                   /* Flab2lean Phase 2 */
 
-                  if(pmpro_has_membership_access(get_sub_field( 'course_page_id' ))){ ?>
+                  if(pmpro_has_membership_access(get_sub_field( 'course_page_id' ))){
+
+                    $levelTwoVideo = true;
+
+                    ?>
 
                     <div class="f2l-program-section">
                       <div class="logo-program-section">
@@ -128,8 +142,6 @@
                     </div>
 
               <?php }; ?>
-
-
 
             <?php endwhile; ?>
       <?php else : ?>
@@ -195,3 +207,25 @@
 
 <?php } ?>
 <!-- /End Team Primal -->
+
+<!-- Display either Level 1 or 2 Videos -->
+<?php
+
+      if ($levelOneVideo == true) { ?>
+        <!-- display level one video -->
+        <h1 style="color: white;">Primal Phase One</h1>
+        <div class="headline-video">
+          <div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/226513864' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        </div>
+      <?php }
+
+      if ($levelTwoVideo == true) { ?>
+        <!-- display level two video -->
+        <h1 style="color: white;">Primal Phase Two</h1>
+        <div class="headline-video">
+          <div class='F2l-video' id="video<?php echo $vid; ?>"><iframe src='https://player.vimeo.com/video/227169265' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        </div>
+      <?php }
+
+?>
+<!-- /End Display either Level 1 or 2 Videos -->
