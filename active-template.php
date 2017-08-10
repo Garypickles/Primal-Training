@@ -262,9 +262,9 @@ $popup = "false";
         <div class="top-element" style="width: 100%; max-width: 500px; margin: 0 auto;">
           <h2>Thank For Choosing</h2>
           <h1><?php the_field( 'active_course_title' ); ?></h1>
-          <p>Course total £199.99</p>
+          <p>Course total, Phase One £199.99 or Phase Two £159.99 (Second Time Round)</p>
           <p>Deposit £99.99</p>
-          <p>By registering for this course and paying the deposit I agree to pay the balance of £100.00 in full on <?php the_field( 'start_date' ); ?>, first session.</p>
+          <p>By registering for this course and paying the deposit I agree to pay the balance of £100.00 for Phase One or £60.00 for Phase Two in full on <?php the_field( 'start_date' ); ?>, first session.</p>
           <p>Click on the Register button below to sign up for your FREE Team Primal account and register your palce with Flab2Lean.</p>
 
           <?php the_content(); ?>
