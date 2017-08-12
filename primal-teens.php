@@ -21,7 +21,7 @@
             <p class="ptt-text ptt-text-bullets">daily support</p>
             <img class="ptt-ages"src="<?php echo get_template_directory_uri(); ?>/images/ptt-ages.png" alt="Join Primal Teens">
             <a class="ptt-button"href="#pk-course-info">explore packages</a>
-            <img class="ptt-arrow" src="<?php echo get_template_directory_uri(); ?>/images/chevron-arrow-down.png" alt="Join The Club">
+            <a href="#pk-course-info"><img class="ptt-arrow" src="<?php echo get_template_directory_uri(); ?>/images/chevron-arrow-down.png" alt="Join The Club"></a>
           </div>
         </div>
         <!-- end hero section -->
