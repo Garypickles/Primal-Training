@@ -10024,3 +10024,72 @@ a:visited {
 
 .premium-program-times ul .no-line::before {
   opacity: 0; }
+
+@font-face {
+  font-family: 'justice_leagueregular';
+  src: url("fonts/justice_league-webfont.woff2") format("woff2"), url("fonts/justice_league-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.ptt-wrapper {
+  background-color: black; }
+
+.ptt-hero {
+  position: relative;
+  background-image: url("images/primal-teens-bg.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh; }
+  .ptt-hero .ptt-hero-image {
+    margin-bottom: 30px; }
+
+.ptt-content {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+
+.ptt-text {
+  font-family: 'justice_leagueregular';
+  color: red;
+  margin: 0 0 10px !important;
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+.ptt-text-bullets {
+  color: white;
+  position: relative; }
+  .ptt-text-bullets:after {
+    content: "*";
+    color: red;
+    font-size: 30px; }
+  .ptt-text-bullets:before {
+    content: "*";
+    color: red;
+    font-size: 30px; }
+
+.ptt-ages {
+  display: block;
+  margin: 10px auto; }
+
+.ptt-arrow {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0px); }
+
+.ptt-button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid red;
+  font-family: 'justice_leagueregular';
+  background-color: black;
+  color: white;
+  text-transform: uppercase; }
+  .ptt-button:hover {
+    color: red; }
+
+.ptt-red {
+  color: red !important; }
