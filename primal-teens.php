@@ -71,7 +71,7 @@
                   <li class="ptt-red">£19.99</li>
                   <li>(Paid Monthly)</li>
                   <li>x1 45min Weekly Session</li>
-                  <li>Includes Primal Teens Unifom</li>
+                  <li>Includes Primal Teens Uniform</li>
                   <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
@@ -89,7 +89,7 @@
                   <li class="ptt-red">£34.99</li>
                   <li>(Paid Monthly)</li>
                   <li>Upto 3x 45min Weekly Session</li>
-                  <li>Includes Primal Teens</li>
+                  <li>Includes Primal Teens Uniform</li>
                   <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
@@ -115,10 +115,10 @@
               <div class="info-inner-wrapper">
                 <h2>Weekly Session Times</h2>
                 <ul>
-                  <li>Monday <em class="ptt-red" style="margin-right: 30px;">-</em> 5:00pm</li>
-                  <li>Tuesday <em class="ptt-red" style="margin-right: 5px;">-</em> 5:00pm <em class="ptt-red">or</em> 6:00pm</li>
-                  <li>Saturday <em class="ptt-red" style="margin-right: 10px;">-</em> 11:00am</li>
-                  <li>Sunday <em class="ptt-red" style="margin-right: 18px;">-</em> 1:00pm</li>
+                  <li>Monday <em class="ptt-red">-</em> 5:00pm</li>
+                  <li>Tuesday <em class="ptt-red" style="margin-right: px;">-</em> 5:00pm</li>
+                  <li>Saturday <em class="ptt-red">-</em> 11:00am</li>
+                  <li>Sunday <em class="ptt-red">-</em> 1:00pm</li>
                 </ul>
               </div>
               <div class="rough-background">
