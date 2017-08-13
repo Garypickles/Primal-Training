@@ -40,7 +40,7 @@
 
                     <div class="info-inner-wrapper">
                       <h2>Thank you for choosing Primal&nbspTeens</h2>
-                      <p>Please contact your Cub leader via text/call <a href="tel:07805036614">07805&nbsp036614</a> or alternatively email us <a href="mailto:primaltraininguk@gmail.com">primaltraininguk@gmail.com</a></p>
+                      <p>Please contact your Primal Teen leader via text/call <a href="tel:07805036614">07805&nbsp036614</a> or alternatively email us <a href="mailto:primaltraininguk@gmail.com">primaltraininguk@gmail.com</a></p>
                     </div>
 
                     <div class="rough-background">
