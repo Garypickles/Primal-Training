@@ -31,7 +31,7 @@
 
             <!-- Kidz Monthley -->
             <?php
-              if(pmpro_hasMembershipLevel(array('10', '11')))
+              if(pmpro_hasMembershipLevel(array('12', '13')))
               { ?>
 
                 <div class="pk-info">
@@ -39,7 +39,7 @@
                   <div class="info-wrapper">
 
                     <div class="info-inner-wrapper">
-                      <h2>Thank you for choosing Primal&nbspKidz</h2>
+                      <h2>Thank you for choosing Primal&nbspTeens</h2>
                       <p>Please contact your Cub leader via text/call <a href="tel:07805036614">07805&nbsp036614</a> or alternatively email us <a href="mailto:primaltraininguk@gmail.com">primaltraininguk@gmail.com</a></p>
                     </div>
 
@@ -75,7 +75,7 @@
                   <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
-                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=11" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
+                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=12" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
                 </div>
               </div>
               <div class="rough-background">
@@ -93,7 +93,7 @@
                   <li>Weekly Home Activity Sheets</li>
                 </ul>
                 <div class="sign-up-button">
-                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=10" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
+                  <a href="https://primaltraininguk.com/membership-account/membership-checkout/?level=13" class="kidz-button"><img src="<?php echo get_template_directory_uri(); ?>/images/booknow.svg" alt="Join The Club"></a>
                 </div>
               </div>
               <div class="rough-background">
