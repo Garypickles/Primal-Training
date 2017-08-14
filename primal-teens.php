@@ -40,7 +40,10 @@
 
                     <div class="info-inner-wrapper">
                       <h2>Thank you for choosing Primal&nbspTeens</h2>
-                      <p>Please contact your Primal Teen leader via text/call <a href="tel:07805036614">07805&nbsp036614</a> or alternatively email us <a href="mailto:primaltraininguk@gmail.com">primaltraininguk@gmail.com</a></p>
+                      <p>Please contact your Team leader jess here and ask to be added to the whatsapp group chat where you can schedule your sessions and any questions can be answered :
+                      <a href="tel:07805036614">07805&nbsp036614</a></p>
+
+                      <p>Once booked we can begin your fitness journey!</p>
                     </div>
 
                     <div class="rough-background">
