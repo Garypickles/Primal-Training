@@ -118,8 +118,8 @@
               <div class="info-inner-wrapper">
                 <h2>Weekly Session Times</h2>
                 <ul>
-                  <li>Monday <em class="ptt-red">-</em> 5:00pm</li>
-                  <li>Tuesday <em class="ptt-red" style="margin-right: px;">-</em> 5:00pm</li>
+                  <li>Tuesday <em class="ptt-red">-</em> 5:00pm</li>
+                  <li>Wednesday <em class="ptt-red">-</em> 5:00pm</li>
                   <li>Saturday <em class="ptt-red">-</em> 11:00am</li>
                   <li>Sunday <em class="ptt-red">-</em> 1:00pm</li>
                 </ul>
